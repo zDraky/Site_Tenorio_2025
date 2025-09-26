@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import LogoKRSimbol from "../assets/LogoKRSimbol.png"
 
 export function Header() {
   const [isActive, setIsActive] = useState(false);
@@ -42,7 +43,7 @@ export function Header() {
         <div className="nav-container">
           <div className="logo">
             <img
-              src="./src/assets/LogoKRSimbol.png"
+              src={LogoKRSimbol}
               alt="KR PRIME CLEAN Logo"
               className="logo-img"
             />

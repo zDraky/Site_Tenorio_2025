@@ -1,4 +1,5 @@
 export function About() {
+  const urlCompressao = "https://images.pexels.com/photos/4239037/pexels-photo-4239037.jpeg?auto=compress&cs=tinysrgb&w=600";
 
   return (
  <section id="about" className="about">
@@ -42,7 +43,7 @@ export function About() {
           </div>
           <div className="about-image">
             <img
-              src="https://images.pexels.com/photos/4239037/pexels-photo-4239037.jpeg?auto=compress&cs=tinysrgb&w=600"
+              src={urlCompressao}
               alt="Equipe KR PRIME CLEAN"
             />
             <div className="about-features">
