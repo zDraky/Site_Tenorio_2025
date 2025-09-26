@@ -53,7 +53,6 @@ export function Header() {
             </div>
           </div>
 
-          {/* Menu */}
           <ul className={`nav-menu ${isActive ? "active" : ""}`}>
             <li>
               <a href="#home" onClick={handleScrollLink}>

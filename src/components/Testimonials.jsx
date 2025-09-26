@@ -1,7 +1,14 @@
 export function Testimonials() {
+  // variáveis com os links
+  const mariaImg =
+    "https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg?auto=compress&cs=tinysrgb&fit=crop&w=200&h=200";
+  const anaImg =
+    "https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&fit=crop&w=200&h=200";
+  const joaoImg =
+    "https://images.pexels.com/photos/1043471/pexels-photo-1043471.jpeg?auto=compress&cs=tinysrgb&fit=crop&w=200&h=200";
 
   return (
- <section id="testimonials" className="testimonials">
+    <section id="testimonials" className="testimonials">
       <div className="container">
         <div className="section-header">
           <h2>O que Nossos Clientes Dizem</h2>
@@ -26,10 +33,7 @@ export function Testimonials() {
               </p>
             </div>
             <div className="testimonial-author">
-              <img
-                src="https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg?auto=compress&cs=tinysrgb&w=100&h=100&fit=crop"
-                alt="Cliente satisfeita"
-              />
+              <img src={mariaImg} alt="Cliente satisfeita" />
               <div>
                 <h4>Maria Silva</h4>
                 <span>Cliente Residencial</span>
@@ -54,10 +58,7 @@ export function Testimonials() {
               </p>
             </div>
             <div className="testimonial-author">
-              <img
-                src="https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&w=100&h=100&fit=crop"
-                alt="Cliente satisfeito"
-              />
+              <img src={anaImg} alt="Cliente satisfeita" />
               <div>
                 <h4>Ana Costa</h4>
                 <span>Cliente Residencial</span>
@@ -82,10 +83,7 @@ export function Testimonials() {
               </p>
             </div>
             <div className="testimonial-author">
-              <img
-                src="https://images.pexels.com/photos/1043471/pexels-photo-1043471.jpeg?auto=compress&cs=tinysrgb&w=100&h=100&fit=crop"
-                alt="Cliente satisfeita"
-              />
+              <img src={joaoImg} alt="Cliente satisfeito" />
               <div>
                 <h4>João Ramos</h4>
                 <span>Cliente Comercial</span>

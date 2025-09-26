@@ -1,3 +1,5 @@
+import LogoKRFundoBranco from "../assets/LogoKRFundoBranco.png";
+
 export function Hero() {
   return (
     <section id="home" className="hero">
@@ -26,20 +28,25 @@ export function Hero() {
                 href="https://wa.me/5511944993638"
                 className="btn btn-secondary"
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 <i className="fab fa-whatsapp"></i>
                 WhatsApp
               </a>
             </div>
           </div>
+
+          {/* Imagem */}
           <div className="hero-image">
             <img
-              src="./src/assets/LogoKRFundoBranco.png"
+              src={LogoKRFundoBranco}
               alt="Limpeza profissional de estofados"
             />
           </div>
         </div>
       </div>
+
+      {/* Features */}
       <div className="hero-features">
         <div className="container">
           <div className="features-grid">
