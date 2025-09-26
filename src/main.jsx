@@ -9,6 +9,7 @@ import { Differentials } from "./components/Differentials.jsx";
 import { Result } from "./components/Result.jsx";
 import { Testimonials } from "./components/Testimonials.jsx";
 import { Contact } from "./components/Contact.jsx";
+import { CleanUp } from "./components/CleanUp.jsx";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
@@ -18,6 +19,7 @@ createRoot(document.getElementById("root")).render(
     <About />
     <Differentials />
     <Result />
+    <CleanUp />
     <Testimonials />
     <Contact />
   </StrictMode>

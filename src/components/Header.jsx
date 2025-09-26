@@ -55,19 +55,34 @@ export function Header() {
           {/* Menu */}
           <ul className={`nav-menu ${isActive ? "active" : ""}`}>
             <li>
-              <a href="#home" onClick={handleScrollLink}>Início</a>
+              <a href="#home" onClick={handleScrollLink}>
+                Início
+              </a>
             </li>
             <li>
-              <a href="#services" onClick={handleScrollLink}>Serviços</a>
+              <a href="#services" onClick={handleScrollLink}>
+                Serviços
+              </a>
             </li>
             <li>
-              <a href="#about" onClick={handleScrollLink}>Sobre</a>
+              <a href="#about" onClick={handleScrollLink}>
+                Sobre
+              </a>
             </li>
             <li>
-              <a href="#testimonials" onClick={handleScrollLink}>Depoimentos</a>
+              <a href="#practice" onClick={handleScrollLink}>
+                Na Prática
+              </a>
             </li>
             <li>
-              <a href="#contact" onClick={handleScrollLink}>Contato</a>
+              <a href="#testimonials" onClick={handleScrollLink}>
+                Depoimentos
+              </a>
+            </li>
+            <li>
+              <a href="#contact" onClick={handleScrollLink}>
+                Contato
+              </a>
             </li>
           </ul>
 
