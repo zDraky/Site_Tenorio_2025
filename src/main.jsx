@@ -10,6 +10,8 @@ import { Result } from "./components/Result.jsx";
 import { Testimonials } from "./components/Testimonials.jsx";
 import { Contact } from "./components/Contact.jsx";
 import { CleanUp } from "./components/CleanUp.jsx";
+import { Footer } from "./components/Footer.jsx";
+import { ButtonWhats } from "./components/ButtonWhats.jsx";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
@@ -22,5 +24,7 @@ createRoot(document.getElementById("root")).render(
     <CleanUp />
     <Testimonials />
     <Contact />
+    <Footer />
+    <ButtonWhats />
   </StrictMode>
 );

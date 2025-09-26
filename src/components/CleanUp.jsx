@@ -2,6 +2,9 @@ import ColchaoLimpoVideo from "../assets/PlayColchaoLimpo.mp4";
 import PlayLimpandoSofaVideo from "../assets/PlayLimpandoSofa.mp4";
 import PlayLimpandoTapeteVideo from "../assets/PlayLimpandoTapete.mp4";
 import PrintSofaLimpo from "../assets/PrintSofaLimpo.jpeg";
+import CapaCholchao from "../assets/VideoCapaColchao.png"
+import CapaSofa from "../assets/FotoCapaSofa.png"
+import CapaTapete from "../assets/FotoCapaTapete.png"
 
 export function CleanUp() {
   return (
@@ -54,7 +57,7 @@ export function CleanUp() {
           <div className="videos-grid">
             <div className="video-card">
               <div className="video-container">
-                <video controls preload="metadata" poster={PrintSofaLimpo}>
+                <video controls preload="metadata" poster={CapaCholchao}>
                   {" "}
                   <source src={ColchaoLimpoVideo} type="video/mp4" />
                   Seu navegador não suporta vídeos HTML5.
@@ -71,7 +74,7 @@ export function CleanUp() {
 
             <div className="video-card">
               <div className="video-container">
-                <video controls preload="metadata" poster={PrintSofaLimpo}>
+                <video controls preload="metadata" poster={CapaSofa}>
                   {" "}
                   <source src={PlayLimpandoSofaVideo} type="video/mp4" />
                   Seu navegador não suporta vídeos HTML5.
@@ -88,7 +91,7 @@ export function CleanUp() {
 
             <div className="video-card">
               <div className="video-container">
-                <video controls preload="metadata" poster={PrintSofaLimpo}>
+                <video controls preload="metadata" poster={CapaTapete}>
                   {" "}
                   {/* Usando a imagem de poster */}
                   <source src={PlayLimpandoTapeteVideo} type="video/mp4" />
