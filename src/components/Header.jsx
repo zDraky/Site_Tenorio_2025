@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import LogoKRSimbol from "../assets/LogoKRSimbol.png"
+import LogoKRSimbol from "../assets/LogoKROriginalSemFundo.png"
 
 export function Header() {
   const [isActive, setIsActive] = useState(false);

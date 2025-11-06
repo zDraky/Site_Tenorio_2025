@@ -1,4 +1,4 @@
-import LogoKRFundoBranco from "../assets/LogoKRFundoBranco.png";
+import LogoKRFundoBranco from "../assets/LogoKROriginal.jpeg";
 
 export function Hero() {
   return (

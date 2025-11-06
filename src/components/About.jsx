@@ -13,7 +13,7 @@ export function About() {
               profissionalismo e confiança.
             </p>
             <p>
-              Fundada em 2024, surgimos da união de experiência no setor de
+              Surgimos da união de experiência no setor de
               serviços com uma visão moderna e personalizada de atendimento.
               Desde o início, nosso foco foi oferecer soluções de limpeza
               residenciais, comerciais e pós-obra, com qualidade superior e
@@ -27,10 +27,6 @@ export function About() {
             </p>
 
             <div className="about-stats">
-              <div className="stat-item">
-                <h3>2024</h3>
-                <p>Ano de Fundação</p>
-              </div>
               <div className="stat-item">
                 <h3>100%</h3>
                 <p>Clientes Satisfeitos</p>

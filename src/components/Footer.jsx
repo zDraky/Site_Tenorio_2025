@@ -1,4 +1,4 @@
-import LogoKR from "../assets/LogoKR.png";
+import LogoKR from "../assets/LogoKROriginal.jpeg";
 
 export function Footer() {
   return (
